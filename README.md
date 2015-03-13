@@ -32,3 +32,14 @@ $ git push heroku master
 ```
 $ heroku open
 ```
+
+## Basic Authentication
+
+Set heroku env
+
+```
+$ heroku config:set BASIC_AUTH_USERNAME=username
+$ heroku config:set BASIC_AUTH_PASSWORD=password
+```
+
+See [this code](https://github.com/STAR-ZERO/heroku-static-template/blob/master/config.ru#L3)
